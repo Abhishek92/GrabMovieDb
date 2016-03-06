@@ -13,8 +13,9 @@ import retrofit.http.Query;
  */
 public interface GrabMovieApiInterface {
 
-    @GET("/3/movie/now_playing")
-    public void getListOfMovies(@Query("api_key") String apiKey, @Query("page") int pageNo, Callback<NowPlayingMovieList> nowPlayingMovieListCallback);
-    @GET("/3/movie/{movieId}/similar")
-    public void getListOfSimilarMovies(@Path("movieId")String movieId, @Query("api_key") String apiKey, @Query("page") int pageNo, Callback<SimilarMovieList> similarMovieListCallback);
+    @GET("/movie/now_playing")
+    void getListOfMovies(@Query("api_key") String apiKey, @Query("page") int pageNo, Callback<NowPlayingMovieList> nowPlayingMovieListCallback);
+
+    @GET("/movie/{movieId}/similar")
+    void getListOfSimilarMovies(@Path("movieId") String movieId, @Query("api_key") String apiKey, @Query("page") int pageNo, Callback<SimilarMovieList> similarMovieListCallback);
 }

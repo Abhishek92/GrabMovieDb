@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">GrabMovieDb</string>
     <string name="api_key">2dd9323bc9b99af02b5990aec3b1d086</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_message">No movies available</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="home_title">Home</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="similar_movies_txt">Similar Movies</string>
+    <string name="favourite_mark_txt">Mark as favourite</string>
+    <string name="remove_favourite_mark_text">Remove as favourite</string>
+    <string name="msg_favourite_marked">Favourite marked!</string>
+    <string name="msg_favourite_removed">Favourite removed!</string>
+    <string name="now_playing_tab_txt">Now Playing</string>
+    <string name="favourite_tab_text">Favourites</string>
 </resources>

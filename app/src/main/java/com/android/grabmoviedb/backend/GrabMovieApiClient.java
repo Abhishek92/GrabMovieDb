@@ -6,6 +6,7 @@ import retrofit.RestAdapter;
  * Created by hp pc on 03-03-2016.
  */
 public class GrabMovieApiClient {
+    public final static String IMAGE_BASE_URL = "http://image.tmdb.org/t/p/w500";
     private final static String API_URL = "https://api.themoviedb.org/3/";
     private static GrabMovieApiInterface grabMovieApiInterface;
 
