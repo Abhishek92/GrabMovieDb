@@ -51,8 +51,7 @@ public class MovieListAdapter extends RecyclerView.Adapter<MovieListAdapter.View
                 .error(R.drawable.placeholder)
                 .into(holder.moviePosterImage);
         holder.movieView.setTag(data);
-        if (fromMovieDetail)
-            setAnimation(holder.moviePosterImage, position);
+        setAnimation(holder.moviePosterImage, position);
     }
 
     @Override
